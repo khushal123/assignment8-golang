@@ -19,7 +19,8 @@ type MealGenerate struct {
 
 
 
-type Recipe struct {
+type Recipies []struct {
+	
 	Nutrition struct {
 		Nutrients []struct {
 			Title               string  `json:"title"`
